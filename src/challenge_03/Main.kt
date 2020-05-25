@@ -52,6 +52,9 @@ fun checkTyposSameLengthChar(baseSequence: String, validationSequence: String): 
 
 }
 
+/**
+ * This function evaluates based on number of different characters
+ */
 fun checkTyposDiffLengthChar(baseSequence: String, validationSequence: String): Boolean{
     var differences = 0
 
